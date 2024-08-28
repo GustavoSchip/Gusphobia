@@ -5,7 +5,7 @@ from .ghosts import *  # TODO: Fix imports!
 
 @command()
 def main() -> None:
-    info()
+    pass  # TODO: Actually make functional commands!
 
 
 if __name__ == "__main__":
