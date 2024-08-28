@@ -2,7 +2,7 @@
 name = "Gusphobia"
 version = "0.0.1"
 authors = [
-  { name="Gustavo Schip", email="gustavoschip@proton.me" },
+    { name = "Gustavo Schip", email = "gustavoschip@proton.me" },
 ]
 description = "My program for use with the Phasmophobia video game."
 readme = "README.md"

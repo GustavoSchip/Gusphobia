@@ -1,6 +1,6 @@
 from click import command
 
-from .api import info
+from .ghosts import *  # TODO: Fix imports!
 
 
 @command()
