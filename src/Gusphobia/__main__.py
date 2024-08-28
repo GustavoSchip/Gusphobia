@@ -3,7 +3,7 @@ from click import command, echo
 
 @command()
 def main() -> None:
-    pass
+    pass  # TODO
 
 
 if __name__ == "__main__":
