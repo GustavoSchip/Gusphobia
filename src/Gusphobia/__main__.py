@@ -1,9 +1,11 @@
-from click import command, echo
+from click import command
+
+from .api import info
 
 
 @command()
 def main() -> None:
-    echo("TEST")  # TODO
+    info()
 
 
 if __name__ == "__main__":

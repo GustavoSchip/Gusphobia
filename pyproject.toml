@@ -6,7 +6,6 @@ authors = [
 ]
 description = "My program for use with the Phasmophobia video game."
 readme = "README.md"
-license = "LICENSE"
 requires-python = ">=3.8"
 dependencies = [
     "click",
