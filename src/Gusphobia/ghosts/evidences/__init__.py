@@ -3,16 +3,15 @@ from pydantic import BaseModel
 
 class Evidence(BaseModel):
     name: str
-    description: str  # TODO
 
 
-EMF5 = Evidence(name="EMF 5", description="")
-UltraViolet = Evidence(name="Ultraviolet", description="")
-WritingBook = Evidence(name="Written Book", description="")
-Freezing = Evidence(name="Freezing", description="")
-DOTS = Evidence(name="D.O.T.S.", description="")
-GhostOrbs = Evidence(name="Ghost Orbs", description="")
-SpiritBox = Evidence(name="Spirit Box", description="")
+EMF5 = Evidence(name="EMF 5")
+UltraViolet = Evidence(name="Ultraviolet")
+WritingBook = Evidence(name="Written Book")
+Freezing = Evidence(name="Freezing")
+DOTS = Evidence(name="D.O.T.S.")
+GhostOrbs = Evidence(name="Ghost Orbs")
+SpiritBox = Evidence(name="Spirit Box")
 
 
 __all__ = [
