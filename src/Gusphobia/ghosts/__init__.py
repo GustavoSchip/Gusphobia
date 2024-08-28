@@ -1,6 +1,4 @@
-from typing import List
-
-from pydantic import BaseModel
+from pydantic import BaseModel, conlist
 
 from .abilities import (
     Ability,
@@ -46,7 +44,7 @@ class Ghost(BaseModel):  # TODO: Add 'behaviours' trait?
     description: str
     hunt_range: str
     ability: Ability
-    evidences: List[Evidence, Evidence, Evidence]  # TODO: Fix weird typing's!??
+    evidences: conlist(Evidence, min_length=3, max_length=3)
 
 
 Spirit = Ghost(
