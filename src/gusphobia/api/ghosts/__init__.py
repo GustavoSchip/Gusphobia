@@ -1,3 +1,5 @@
+"""Submodule for api ghost related data."""
+
 from typing import List, Optional, Union
 
 from ...ghosts import (

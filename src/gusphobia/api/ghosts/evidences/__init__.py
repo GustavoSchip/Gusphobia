@@ -1,3 +1,5 @@
+"""Submodule for api ghost evidence related data."""
+
 from ....ghosts.evidences import (
     Evidence,
     EMF5,

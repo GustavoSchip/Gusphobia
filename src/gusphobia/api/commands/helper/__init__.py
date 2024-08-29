@@ -1,3 +1,5 @@
+"""Submodule for api command helper related data."""
+
 from typing import Optional
 
 from ...ghosts import ghost_variations

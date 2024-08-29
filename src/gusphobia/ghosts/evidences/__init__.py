@@ -1,3 +1,5 @@
+"""Submodule for ghost evidence related data."""
+
 from pydantic import BaseModel, conlist
 
 

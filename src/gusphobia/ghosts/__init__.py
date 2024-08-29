@@ -1,3 +1,5 @@
+"""Submodule for ghost related data."""
+
 from pydantic import BaseModel, conlist
 
 from .abilities import (
