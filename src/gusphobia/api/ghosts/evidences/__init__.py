@@ -19,7 +19,7 @@ evidence_map = {
     "SpiritBox": SpiritBox,
 }
 evidence_variations = {
-    "EMF5": ["emf5", "emf 5", "emf-5"],
+    "EMF5": ["emf5", "emf", "emf 5", "emf-5"],
     "UltraViolet": ["ultraviolet", "uv", "uvlight", "uv light"],
     "WritingBook": [
         "writingbook",
@@ -30,6 +30,7 @@ evidence_variations = {
     ],
     "Freezing": [
         "freezing",
+        "temp",
         "freezingtemps",
         "freezing temps",
         "freezingtemperatures",
