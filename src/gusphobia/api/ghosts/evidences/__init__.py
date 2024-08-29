@@ -18,6 +18,27 @@ evidence_map = {
     "GhostOrbs": GhostOrbs,
     "SpiritBox": SpiritBox,
 }
+evidence_variations = {
+    "EMF5": ["emf5", "emf 5", "emf-5"],
+    "UltraViolet": ["ultraviolet", "uv", "uvlight", "uv light"],
+    "WritingBook": [
+        "writingbook",
+        "book",
+        "writing book",
+        "ghostwriting",
+        "ghost writing",
+    ],
+    "Freezing": [
+        "freezing",
+        "freezingtemps",
+        "freezing temps",
+        "freezingtemperatures",
+        "freezing temperatures",
+    ],
+    "DOTS": ["dots", "dotsprojector", "dots projector"],
+    "GhostOrbs": ["ghostorbs", "orbs", "ghost orbs"],
+    "SpiritBox": ["spiritbox", "box", "spirit box", "spiritbox"],
+}
 
 
-__all__ = ["evidence_map"]
+__all__ = ["evidence_map", "evidence_variations"]

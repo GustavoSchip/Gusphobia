@@ -13,7 +13,7 @@ def identify_ghost(evidences: List[str]) -> Optional[Ghost]:
 def possible_ghosts(evidences: List[str]) -> List[Ghost]:
     possible = []
     for ghost in Ghosts:
-        if any(evidence in ghost.evidences for evidence in evidences):
+        if all(evidence in ghost.evidences for evidence in evidences):
             possible.append(ghost)
     return possible
 

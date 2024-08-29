@@ -39,7 +39,7 @@ from .evidences import (
 )
 
 
-class Ghost(BaseModel):  # TODO: Add 'behaviours' trait?
+class Ghost(BaseModel):
     name: str
     description: str
     hunt_range: str
