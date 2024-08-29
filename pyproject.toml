@@ -1,16 +1,15 @@
 [project]
-name = "Gusphobia"
+name = "gusphobia"
 version = "0.0.1"
 authors = [
     { name = "Gustavo Schip", email = "gustavoschip@proton.me" },
 ]
 description = "My program for use with the Phasmophobia video game."
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.8, < 3.12"
 dependencies = [
-    "click",
-    "pydantic",
-    "typing"
+    "click >= 8.1.7, < 9",
+    "pydantic >= 2.8.2, < 3",
 ]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -26,4 +25,4 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [tool.hatch.build.targets.wheel]
-packages = ["src/Gusphobia"]
+packages = ["src/gusphobia"]
