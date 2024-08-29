@@ -30,7 +30,6 @@ from ...ghosts import (
 )
 from ...ghosts.evidences import Evidence
 
-
 ghost_map: dict[str, Ghost] = {
     "Spirit": Spirit,
     "Poltergeist": Poltergeist,
