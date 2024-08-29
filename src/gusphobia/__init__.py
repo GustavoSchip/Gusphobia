@@ -1,6 +1,7 @@
 """My program for use with the Phasmophobia video game."""
 
-from .api import evidence_map, identify_ghost, possible_ghosts
+from .api.ghosts import identify_ghost, possible_ghosts
+from .api.ghosts.evidences import evidence_map
 from .ghosts import (
     Ghosts,
     Spirit,
