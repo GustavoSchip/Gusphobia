@@ -1,7 +1,5 @@
 """My program for use with the Phasmophobia video game."""
 
-from .api.ghosts import identify_ghost, possible_ghosts
-from .api.ghosts.evidences import evidence_map, evidence_variations
 from .ghosts import (
     Ghosts,
     Spirit,
@@ -69,10 +67,6 @@ from .ghosts.evidences import (
 
 
 __all__ = [
-    "evidence_map",
-    "evidence_variations",
-    "identify_ghost",
-    "possible_ghosts",
     "Ghosts",
     "Spirit",
     "Poltergeist",
