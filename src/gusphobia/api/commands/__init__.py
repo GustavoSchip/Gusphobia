@@ -12,7 +12,6 @@ from ...ghosts.evidences import Evidence
 
 
 def evidence(evidences: List[str]) -> None:
-    """Proxy handle to reduce clutter."""
     secho("")
 
     if not evidences or len(evidences) < 1:
@@ -64,7 +63,6 @@ def evidence(evidences: List[str]) -> None:
 
 
 def ghost(name: str) -> None:
-    """Proxy handle to reduce clutter."""
     secho("")
 
     if not name:
