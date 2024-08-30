@@ -3,6 +3,11 @@ repos:
     rev: v4.6.0
     hooks:
       - id: forbid-submodules
+      - id: check-ast
+      - id: check-docstring-first
+      - id: check-toml
+      - id: check-yaml
+      - id: end-of-file-fixer
   - repo: https://github.com/google/yamlfmt
     rev: v0.13.0
     hooks:
