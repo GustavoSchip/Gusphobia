@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Setup" type="CompoundRunConfigurationType">
+    <toRun name="Pre-commit Update" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>
