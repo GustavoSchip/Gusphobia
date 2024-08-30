@@ -4,11 +4,11 @@ from typing import List, Optional
 
 from click import secho, style
 
-from .helper import normalize_evidence, detect_evidence, normalize_ghost, detect_ghost
-from ..ghosts import ghost_map, identify_ghost, possible_ghosts
-from ..ghosts.evidences import evidence_map
 from ...ghosts import Ghost
 from ...ghosts.evidences import Evidence
+from ..ghosts import ghost_map, identify_ghost, possible_ghosts
+from ..ghosts.evidences import evidence_map
+from .helper import detect_evidence, detect_ghost, normalize_evidence, normalize_ghost
 
 
 def evidence(evidences: List[str]) -> None:

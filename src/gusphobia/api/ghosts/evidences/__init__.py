@@ -1,16 +1,15 @@
 """Submodule for api ghost evidence related data."""
 
 from ....ghosts.evidences import (
-    Evidence,
-    EMF5,
-    UltraViolet,
-    WritingBook,
-    Freezing,
     DOTS,
+    EMF5,
+    Evidence,
+    Freezing,
     GhostOrbs,
     SpiritBox,
+    UltraViolet,
+    WritingBook,
 )
-
 
 evidence_map: dict[str, Evidence] = {
     "EMF5": EMF5,
