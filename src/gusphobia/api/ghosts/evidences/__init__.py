@@ -34,6 +34,7 @@ evidence_variations: dict[str, list[str]] = (
         "Freezing": [
             "freezing",
             "temp",
+            "temps",
             "freezingtemps",
             "freezing temps",
             "freezingtemperatures",
